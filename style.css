@@ -1,0 +1,40 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Josefin Sans;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/bg-pattern-desktop.svg);
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  width: 50rem;
+  height: 35vw;
+  margin: 5.5vw auto;
+  background-color: white;
+  -webkit-box-shadow: 0px -1px 21px 0px rgba(199, 179, 199, 1);
+  -moz-box-shadow: 0px -1px 21px 0px rgba(199, 179, 199, 1);
+  box-shadow: 0px -1px 21px 0px rgba(199, 179, 199, 1);
+
+  overflow: hidden;
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+  background: cadetblue;
+}
+
+.content {
+  padding: 3rem;
+}
